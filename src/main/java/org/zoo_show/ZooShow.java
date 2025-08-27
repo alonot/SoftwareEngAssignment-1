@@ -11,9 +11,9 @@ import org.zoo_show.animals.Lion;
 import java.util.Arrays;
 
 /**
- * Main class that demonstrates a Zoo where different animals make their unique sound.
+ * ZooShow class that demonstrates a Zoo where different animals make their unique sound.
  */
-public class Main {
+public class ZooShow {
     /**
      * The main function which handles the Zoo show.
      * @param args Input arguments to the program.
@@ -24,6 +24,7 @@ public class Main {
             new Cow("Coww"),
             new Dog("Dogg"),
             new Lion("Lionn"),
+            new Lion("LionKing"),
             new Cat("Catt"),
             new Chimpanzee("Chimp"),
         };
@@ -34,8 +35,7 @@ public class Main {
             final String name =  animal.getName();
             final AnimalType type = animal.getType();
             System.out.println(name + ",a " + type + ", comes to the Stage...");
-            System.out.println("It says: ");
-            animal.makeSound();
+            System.out.println("It says: " + animal.makeSound());
             System.out.println(name + " leaves...");
         });
     }
