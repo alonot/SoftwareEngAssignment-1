@@ -1,11 +1,11 @@
-package org.example;
+package org.zoo_show;
 
-import org.example.Animals.Animal;
-import org.example.Animals.Cat;
-import org.example.Animals.Chimpanzee;
-import org.example.Animals.Cow;
-import org.example.Animals.Dog;
-import org.example.Animals.Lion;
+import org.zoo_show.Animals.Animal;
+import org.zoo_show.Animals.Cat;
+import org.zoo_show.Animals.Chimpanzee;
+import org.zoo_show.Animals.Cow;
+import org.zoo_show.Animals.Dog;
+import org.zoo_show.Animals.Lion;
 
 import java.util.Arrays;
 

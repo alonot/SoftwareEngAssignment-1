@@ -1,4 +1,4 @@
-package org.example.Animals;
+package org.zoo_show.Animals;
 
 /**
  * Represents a Chimpanzee.

@@ -1,4 +1,4 @@
-package org.example.Animals;
+package org.zoo_show.Animals;
 
 /**
  * The base class for all the animals.
